@@ -13,6 +13,7 @@ import java.time.LocalTime;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name= "reserva_da_quadra")
 public class ReservaDaQuadra {
 
     @Id
